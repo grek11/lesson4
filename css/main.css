@@ -42,10 +42,10 @@ p {
 .wrapper {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .offer {
-	margin-top: 170px;
 	width: 560px;
 }
 
@@ -101,7 +101,7 @@ p {
 }
 
 .skill {
-	width: 320px;
+	width: 289px;
 	background: url('../img/icon1.jpg') no-repeat top;
 	padding-top: 100px;
 	text-align: center;
@@ -116,12 +116,10 @@ p {
 }
 
 .skill-free {
-	width: 280px;
 	background: url('../img/icon2.jpg') no-repeat top;
 }
 
 .skill-change {
-	width: 340px;
 	background: url('../img/icon3.jpg') no-repeat top;
 }
 
@@ -132,14 +130,14 @@ p {
 }
 
 .form {
-	margin-top: 62px;
-	margin-left: 415px;
+	max-width: 340px;
+	margin: 0 auto;
 }
 
 .input {
 	display: block;
 	margin-bottom: 15px;
-	width: 340px;
+	width: 100%;
 	border: 1px solid #bbbbbb;
 	font-size: 15px;
 	font-family: 'Ubuntu', sans-serif;
@@ -151,7 +149,7 @@ p {
 .btn-form {
 	border: 0;
 	cursor: pointer;
-	width: 340px;
+	width: 100%;
 }
 
 .footer {
